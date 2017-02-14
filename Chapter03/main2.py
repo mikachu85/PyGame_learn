@@ -4,11 +4,11 @@ import pygame
 
 SCREEN_X = 640
 SCREEN_Y = 480
-Bilde1 = "Data/sushiplate.jpg"
+Bakgrunn = "Data/sushiplate.jpg"
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_X, SCREEN_Y), 0, 32)
-background = pygame.image.load(Bilde1)
+background = pygame.image.load(Bakgrunn)
 
 while True:
     event = pygame.event.wait()

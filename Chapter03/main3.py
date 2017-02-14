@@ -6,12 +6,12 @@ import pygame
 
 SCREEN_X = 640
 SCREEN_Y = 480
-BG_FNAME = "Data/sushiplate.jpg"
+Bakgrunn = "Data/sushiplate.jpg"
 MOUSE_FNAME = "Data/fugu.png"
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_X, SCREEN_Y), 0, 32)
-background = pygame.image.load(BG_FNAME)
+background = pygame.image.load(Bakgrunn)
 background = background.convert()
 mouse_img = pygame.image.load(MOUSE_FNAME).convert_alpha()
 
